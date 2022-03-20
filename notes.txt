@@ -3,7 +3,7 @@ spring.datasource.username=root
 spring.datasource.password=
 
 # if on dev set to update, if on prdo set to none
-spring.jpa.hibernate.ddl-auto=update
+spring.jpa.hibernate.ddl-auto=create
 
 # dump the queries to standard output
 spring.jpa.show-sql=true
